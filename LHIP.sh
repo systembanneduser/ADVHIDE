@@ -27,47 +27,47 @@ if [ "${userinput1:-}" = "1" ]
 then
 	cd  $HOME
 	cd STG
-	cd source
+	cd LHIP
 	bash mkdir.sh
 fi
 if [ "${userinput1:-}" = "2" ]
 then
 	cd  $HOME
 	cd STG
-	cd source 
+	cd LHIP
 	bash hide.sh
 fi
 if [ "${userinput1:-}" = "3" ]
 then
 	cd  $HOME
 	cd STG
-	cd source 
+	cd LHIP
 	bash extract.sh
 fi
 if [ "${userinput1:-}" = "4" ]
 then
 	cd  $HOME
 	cd STG
-	cd source 
+	cd LHIP
 	bash clear.sh
 fi
 if [ "${userinput1:-}" = "5" ]
 then
 	cd  $HOME
 	cd STG
-	cd source
+	cd LHIP
 	bash update.sh
 fi
 if [ "${userinput1:-}" = "6" ]
 then
 	cd  $HOME
 	cd STG
-	cd source
+	cd LHIP
 	bash about.sh
 fi
 if [ "${userinput1:-}" = "" ]
 then
 	cd  $HOME
-	cd STG
+	cd LHIP
 	bash LHIP.sh
 fi
