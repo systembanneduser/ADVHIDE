@@ -25,5 +25,5 @@ steghide extract -sf /sdcard/encrypt/$picture -xf /sdcard/encrypt/output/$output
 
 	sleep 3
 	cd $HOME
-	cd STG 
-	bash stg.sh
+	cd LHIP
+	bash LHIP.sh
