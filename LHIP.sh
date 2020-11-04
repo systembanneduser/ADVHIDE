@@ -26,43 +26,43 @@ read -p 'Enter the option 》》》 ' userinput1;
 if [ "${userinput1:-}" = "1" ]
 then
 	cd  $HOME
-	cd STG
 	cd LHIP
+	cd source
 	bash mkdir.sh
 fi
 if [ "${userinput1:-}" = "2" ]
 then
 	cd  $HOME
-	cd STG
 	cd LHIP
+	cd source
 	bash hide.sh
 fi
 if [ "${userinput1:-}" = "3" ]
 then
 	cd  $HOME
-	cd STG
 	cd LHIP
+	cd source
 	bash extract.sh
 fi
 if [ "${userinput1:-}" = "4" ]
 then
 	cd  $HOME
-	cd STG
 	cd LHIP
+	cd source
 	bash clear.sh
 fi
 if [ "${userinput1:-}" = "5" ]
 then
 	cd  $HOME
-	cd STG
 	cd LHIP
+	cd source
 	bash update.sh
 fi
 if [ "${userinput1:-}" = "6" ]
 then
 	cd  $HOME
-	cd STG
 	cd LHIP
+	cd source
 	bash about.sh
 fi
 if [ "${userinput1:-}" = "" ]
