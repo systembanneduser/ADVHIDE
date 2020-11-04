@@ -11,6 +11,6 @@ read -p 'Enter to continue 》》》' userinput1;
 if [ "${userinput1:-}" = "" ]
 then
 	cd  $HOME
-	cd STG
-	bash stg.sh
+	cd LHIP
+	bash LHIP.sh
 fi
