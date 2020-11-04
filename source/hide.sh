@@ -25,5 +25,5 @@ echo -e "\e[94mYOUR FILE IS STORED INSIDE THE PICTURE WITH YOUR GIVEN PASSWORD .
 	
 sleep 3
 cd $HOME 
-cd STG
-bash stg.sh
+cd LHIP
+bash LHIP.sh
