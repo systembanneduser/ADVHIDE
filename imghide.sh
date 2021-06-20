@@ -60,7 +60,7 @@ figlet "     IMGHIDE" | lolcat
 sleep 1
 echo ""
 echo -e "\e[1;32m           ****** Sri Lanka 2021 ******"
-echo -e "\e[0;36m           ------ IMG HIDER  ------"
+echo -e "\e[0;36m             ------ IMG HIDER  ------"
 echo ""
 echo -e $red "#CODED BY ISURUWA"
 echo ""
@@ -77,16 +77,16 @@ read userinput1
 #
 if [ "${userinput1:-}" = "1" ]
 then
-       bash hide.sh
+     bash hide.sh
 elif [ "${userinput1:-}" = "2" ]
 then
-	bash extract.sh
+     bash extract.sh
 elif [ "${userinput1:-}" = "3" ]
 then
-	check
+     check
 elif [ "${userinput1:-}" = "4" ]
 then
-	enclist
+    enclist
 elif [ "${userinput1:-}" = "5" ]
 then
     am start -a android.intent.action.VIEW -d https://github.com/isuruwa
@@ -102,7 +102,7 @@ then
     exit 0
 elif [ "${userinput1:-}" = "" ]
 then
-	menu
+    menu
 else
     echo -e $red "Wrong Choice"
     sleep 2
