@@ -1,3 +1,7 @@
+#!/bin/bash
+# -*- coding: utf-8 -*-
+#CODED BY ISURUWAA
+
 red='\033[1;31m'
 rset='\033[0m'
 gr='\033[1;32m'
