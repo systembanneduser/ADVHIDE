@@ -22,19 +22,33 @@
   
 Steghide is a steganography program that allows you to hide confidential files inside an image or audio file with a passphrase. Supports BMP and JPEG image formats, AU and WAV audio formats. IMGHIDE is a very small bash based script rich with above features .
  
-  
+</p>
+
+<br>
+
+<p>
 
 <a href="https://github.com/isuruwa"><img title="addon" src="https://img.shields.io/badge/isuruwa-Features-ff69b4?style=for-the-badge&logo=appveyor"></a>
   
-
+<p>
+  
+  
 ## FEATURES : <img src="https://img.icons8.com/doodle/80/000000/search--v1.png"/>
   
-1. Fixed Bugs .
+1.Fixed Bugs .
   
 2.Embeded Check included . ( Try to extract file with info )
   
 3.Added supported Encryption algorithms . 
   
+</p>
+
+<br>
+
+<p>
+  
+  
+<p>
   
 <a href="https://github.com/isuruwa"><img title="addon" src="https://img.shields.io/badge/isuruwa-Available-brightgreen?style=for-the-badge&logo=appveyor"></a>
   
@@ -62,6 +76,10 @@ Steghide is a steganography program that allows you to hide confidential files i
 * `termux-setup-storage`  ( DEFINITE )
 * `bash imghide.sh`
   
+
+<p align="center">
+<img src="https://img.icons8.com/cute-clipart/150/000000/walter-white.png"/>
+</p>
 
 ```
 [+]-- Storage Permission Needed For Termux
