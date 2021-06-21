@@ -95,3 +95,8 @@ Steghide is a steganography program that allows you to hide confidential files i
 <img src="https://img.shields.io/badge/isuruwa-STAY%20SAFE-brightgreen?style=flat-square&logo=appveyor"/>
 
 <img src="https://img.shields.io/badge/isuruwa-EXPECT%20US-red?style=for-the-badge&logo=appveyor"/>
+
+
+# SCREENSHOTS :
+
+![Screenshot_20210621-232020_Termux](https://user-images.githubusercontent.com/72663288/122806898-8d4fe080-d2e8-11eb-898d-488ad3f4ce1a.jpg)
