@@ -39,7 +39,7 @@ Steghide is a steganography program that allows you to hide confidential files i
   
 2.Embeded Check included . ( Try to extract file with info )
   
-3.Added supported Encryption algorithms . 
+3.Added list of supported Encryption algorithms . 
   
 </p>
 
