@@ -56,7 +56,7 @@ menu
 function menu(){
 
 clear
-figlet "     IMGHIDE" | lolcat
+figlet "     ADVHIDE" | lolcat
 sleep 1
 echo ""
 echo -e "\e[1;32m           ****** Sri Lanka 2021 ******"
