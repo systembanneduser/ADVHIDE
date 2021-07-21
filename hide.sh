@@ -11,7 +11,7 @@ cy='\033[1;36m'
 pink='\033[1;35m'
 
 clear
-mkdir /sdcard/IMGHIDE
+mkdir /sdcard/ADVHIDE
 clear
 figlet "    HIDE" | lolcat
 echo ""
@@ -22,7 +22,7 @@ echo ""
 
 function inpic() {
 
-echo -e $gr "[P] Enter Picture or audio Name in /sdcard/IMGHIDE directory ( With Extension )  : "
+echo -e $gr "[P] Enter Picture or audio Name in /sdcard/ADVHIDE directory ( With Extension )  : "
 echo -n -e " [P] : "
 read inpic
 
@@ -30,7 +30,7 @@ read inpic
 
 function txt() {
 
-echo -e $pink "[T] Enter text file name in the /sdcard/IMGHIDE directory ( With Extension ) : "
+echo -e $pink "[T] Enter text file name in the /sdcard/ADVHIDE directory ( With Extension ) : "
 echo -n -e " [T] : "
 read txt
 
@@ -41,11 +41,11 @@ inpic
 echo ""
 txt
 echo ""
-steghide embed -cf /sdcard/IMGHIDE/$inpic -ef /sdcard/IMGHIDE/$txt
+steghide embed -cf /sdcard/ADVHIDE/$inpic -ef /sdcard/ADVHIDE/$txt
 echo ""
 echo -e "\033[35m  [\033[33m*\033[35m]\e[0;36m Your File Embeded In The Given File With Given Pass "
 echo ""
 echo -n -e "\033[35m  [\033[33m*\033[35m]\e[1;32m Press Enter To Continue : "
 read
-bash imghide.sh
+bash advhide.sh
 
