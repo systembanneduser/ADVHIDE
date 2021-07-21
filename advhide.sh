@@ -60,7 +60,7 @@ figlet "     IMGHIDE" | lolcat
 sleep 1
 echo ""
 echo -e "\e[1;32m           ****** Sri Lanka 2021 ******"
-echo -e "\e[0;36m             ------ IMG HIDER  ------"
+echo -e "\e[0;36m             ------ ADV HIDER  ------"
 echo ""
 echo -e $red "#CODED BY ISURUWA"
 echo ""
